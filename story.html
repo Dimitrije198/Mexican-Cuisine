@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mexican cuisine</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots"content="index,follow"/>
+	<meta name="description" content="Mexican cuisine">
+	<meta name="keywords" content="Mexican, food">
+	<meta name="author" content="Dimitrije Vukajlović">
+	<link rel="stylesheet" href="web-fonts-with-css/css/all.min.css"/>
+	<link rel="shortcut icon" href="slike/ico.ico"/>
+</head>
+<body>
+	<div id="okvir">
+		<header>
+			<section id="fafa">
+				<ul>
+					<li>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+					</li>	
+					<li>
+						<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+					</li>	
+					<li>
+						<a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+					</li>	
+				</ul>	
+			</section>
+		</header>
+		
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="story.html">Our Story</a>
+				</li>
+				<li>
+					<a href="meni.html">Menus</a>
+				</li>
+				<li>
+					<a href="gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact &amp; Reservations</a>
+				</li>
+				<li>
+					<a href="author.html">Author</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<section id="up1">
+			<h1>STORY OF MEXICAN'S CUISINE</h1>
+		</section>
+		<main id="main5">
+			<section id="about">
+				<h1>About us</h1>
+				<p>
+The history of Mexican food is a long and diverse one. It is believed that authentic Mexican food might have been derived from the Mayan Indians. They were traditionally nomadic hunters and gatherers. Corn tortillas with bean paste were a common food item; but they also ate wild game, tropic fruits, and fish. </p>
+			</section>
+		</main>
+		
+		<main id="main6">
+			<section id="about1">
+				<h1>In the mid of 1300's</h1>
+				<p>In the mid 1300's, The Aztec Empire was thriving, and though the Mayan food staples were still in use, chili peppers, honey, salt and chocolate found its way into their cooking. Some of the wild game, such as turkey and duck, had now become domesticated.</p>
+			</section>
+			<script>
+				var images=[
+				"slike/chef.jpg",
+				"slike/chef1.jpg",
+				"slike/chef2.jpg",
+				"slike/chef3.jpg",
+				"slike/chef4.jpg", 
+				"slike/chef5.jpg", 
+				];
+				var i=0;
+				function slides(){
+					document.getElementById("chef").src=images[i];
+					if(i<(images.length-1))
+						i++;
+					else
+						i=0;
+				}
+				setInterval(slides,1500)
+			</script>
+			<section id="about2">
+				<img src="slike/chef.jpg" alt="chef" id="chef"/>
+			</section>
+		</main>
+		<footer>
+			<p>Copyright &copy; Dimitrije Vukajlović </p>
+			<a href="sitemap.xml" id="sitemap">SITEMAP</a>
+			<a href="rss.xml" id="rss">RSS</a>
+		</footer>
+	</div>	
+</body>
+</html>

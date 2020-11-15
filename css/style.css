@@ -1,0 +1,474 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	src:url('luckiestguy.ttf');
+	font-family:MojFont;
+}
+#okvir{
+	width:100%;
+	margin:0px auto;
+}
+body{
+	font-family:MojFont;
+	overflow-x:hidden;
+}
+header{
+	width:100%;
+	height:40px;
+	background-color:#806641;
+	/*position:fixed;
+	z-index:999;*/
+}
+header ul{
+	padding-top:10px;
+	padding-left:50px;
+	display:flex;
+}
+header li{
+	list-style-type:none;
+	padding-left:40px;
+}
+header a{
+	color:white;
+}
+nav{
+	width:100%;
+	/**/
+	height:80px;
+	background-color:#FFF8DC;
+}
+nav ul{
+	display:flex;
+	justify-content:space-around;
+	list-style-type:none;
+	/**/
+	padding-top:25px;
+}
+nav ul li a:hover{
+	color:#CD853F;
+}
+nav a{
+	color: #800040;
+	text-decoration:none;
+	font-size:25px;
+	font-weight:bold;
+}
+#main1{
+	width:100%;
+	height:800px;
+	background-image:url('../slike/madre2.jpg');
+	background-size:cover;
+	
+}
+#main1 h1{
+	text-align:center;
+	color:white;
+	font-size:80px;
+	padding-top:50px;
+}
+#main1 ul{
+	list-style-type:none;
+	display:flex;
+	justify-content:space-around;
+	padding-top:340px;
+}
+#main1 ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+	border:2px solid white;
+	border-radius:5px;
+	padding:20px;
+}
+#main1 ul li a:hover{
+	background-color:rgba(255,255,255,0.8);
+	color:#800040;
+}
+#main2{
+	width:100%;
+	height:1650px;
+	background-color: #800040;
+	position:relative;
+}
+#main2 h1{
+	color:white;
+	padding-top:20px;
+	text-align:center;
+}
+#main2 p{
+	text-align:center;
+	color:white;
+}
+#main2 h2{
+	color:white;
+	padding-top:50px;
+	text-align:center;
+	font-size:80px;
+}
+#main2 h3{
+	color:white;
+	padding-top:650px;
+	text-align:center;
+	font-size:80px;
+}
+/*Article*/
+#article1{
+	position:absolute;
+	top:300px;
+	left:100px;
+}
+#article2{
+	position:absolute;
+	top:300px;
+	right:200px;
+}
+#article3{
+	position:absolute;
+	top:500px;
+	left:120px;
+}
+#article4{
+	position:absolute;
+	top:500px;
+	right:160px;
+}
+#article5{
+	position:absolute;
+	top:700px;
+	left:530px;
+}	
+#article6{
+	position:absolute;
+	top:1100px;
+	left:70px;
+}
+#article7{
+	position:absolute;
+	top:1100px;
+	right:30px;
+}
+#article8{
+	position:absolute;
+	top:1300px;
+	left:50px;
+}
+#article9{
+	position:absolute;
+	top:1300px;
+	right:10px;
+}
+#article10{
+	position:absolute;
+	top:1500px;
+	left:460px;
+}
+#main2 article h1, article #p1{
+	color:#CD853F;
+}
+#main2 article p{
+	padding-top:10px;
+} 
+#main2 article li{
+	list-style-type:none;
+}
+#main2 article li a{
+	text-decoration:none;
+}
+/*Article*/
+#up, #up1{
+	widht:100%;
+	height:100px;
+	background-color:#fff;
+}
+#up h1,#up1 h1{
+	color:#800040;
+	text-align:center;
+	padding-top:20px;
+	font-size:50px;
+}
+#main3{
+	width:100%;
+	height:600px;
+	background-image:url('../slike/healty6.jpg');
+	background-size:cover;
+	background-position:fixed;
+	position: relative;
+}
+#forma1{
+	position:absolute;
+	top:95px;
+	right: 240px;
+	font-size:30px;
+	width:500px;
+	height:500px;
+	background-color:rgba(255,255,255,0.8);
+	border:2px solid #800040;
+}
+#forma1 h1{
+	text-align:center;
+	color:#800040;
+	position:relative;
+	top:10px;
+}
+#forma1 #select1{
+	position:absolute;
+	left:50px;
+	top:100px;
+	padding:10px 100px 10px 100px;
+	font-size:15px;
+	background-color:#f9ecf2;
+}
+#number{
+	position:absolute;
+	left:50px;
+	top:150px;
+	padding:10px 110px 10px 110px;
+	font-size:15px;
+	background-color:#f9ecf2;
+}	
+#email{
+	position:absolute;
+	left:50px;
+	top:200px;
+	padding:10px 110px 10px 110px;
+	font-size:15px;
+	background-color:#f9ecf2;
+}
+#name{
+	position:absolute;
+	left:50px;
+	top:250px;
+	padding:10px 110px 10px 110px;
+	font-size:15px;
+	background-color:#f9ecf2;
+}
+#lastname{
+	position:absolute;
+	left:50px;
+	top:300px;
+	padding:10px 110px 10px 110px;
+	font-size:15px;
+	background-color:#f9ecf2;
+}
+#forma1 #select2{
+	position:absolute;
+	left:50px;
+	top:350px;
+	padding:10px 120px 10px 120px;
+	font-size:15px;
+	background-color:#f9ecf2;
+}
+#submit{
+	position:absolute;
+	left:50px;
+	top:430px;
+	padding:10px 175px 10px 175px;
+	font-size:15px;
+	background-color:#800040;
+	color:white;
+}
+#main4{
+	width:100%;
+	height:500px;
+	background-color:#fff;
+	display:flex;
+	justify-content:center;
+}
+#main4 #section2
+{
+	width:35%;
+
+}
+#main4 #section2 iframe
+{
+	width: 100%;
+	height: 100%;
+}
+#forma2{
+	width:35%;
+	height:450px;
+	background-color:#efeeee;
+}
+#forma2 h1,p{
+	text-align:center;
+	padding-top:20px;
+	color:#800040;
+}
+#forma2 h1{
+	font-size:40px;
+}
+#forma2 p{
+	font-size:25px;
+}
+#forma3{
+	width:75%;
+	padding-left:50px;
+	padding-top:30px;
+}
+#levo{
+	width:50%;
+	float:left;
+}
+#desno{
+	width:50%;
+	float:right;
+}
+#name1, #email1, #subject{
+	padding:5px 2px;
+	margin:5px auto;
+	border:1px solid #800040;
+}
+#name1, #email1, #subject{
+	width:90%;
+}
+#message{
+	padding-bottom:80px;
+	padding-left:5px;
+	padding-top:5px;
+	margin-top:5px;
+	border:1px solid #800040;
+}
+::placeholder{
+	color:#800040;
+}
+#submit1{
+	float:right;
+	mergin-top:10px;
+	margin-right:23px;
+	padding:10px;
+	color:white;
+	background-color:#800040;
+}
+#main5{
+	width:100%;
+	height:600px;
+	position:relative;
+	background-image:url('../slike/healty11.jpg');
+	background-size:cover;
+	background-position:center; 
+}
+#about{
+	background-color:rgba(255,255,255,0.7);
+	width:400px;
+	height:400px;
+	padding:40px;
+	position:absolute;
+	top:120px;
+	left:800px;
+}
+#about:hover{
+	/*border:5px solid #800040;*/
+	background-color:#efeeee;
+}
+#about h1,#about1 h1{
+	text-align:center;
+	font-size:50px;
+	color:#800040;
+	margin-top:-20px;
+}
+#about p,#about1 p{
+	font-size:25px;
+	text-align:center;
+	margin-top:0px;
+}
+#main6{
+	width:100%;
+	background-color:#fff;
+	display:flex;
+	justify-content:center;
+	background-color:#fff;
+}
+#about1{
+	width:400px;
+	height:400px;
+	background-color:#efeeee;
+	padding:40px;
+}
+#about2{
+	width:400px;
+	height:400px;
+}
+#main7{
+	width:100%;
+	/**/
+	heigh:1500px;
+	background-color:#800040;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding-top:40px;
+}
+#main7 img{
+	width:26%;
+	height:auto;
+	margin-bottom:16px;
+}
+#main7 img:hover{
+	transform:rotate(10deg);
+}
+#main8{
+	width:100%;
+	height:1000px;
+	background-image:url('../slike/taco.jpg');
+	background-size:cover;
+	padding-top:50px;
+}
+#about_author{
+	width:400px;
+	height:400px;
+	margin-left:620px;
+	border:5px solid white;
+	border-radius:60px;
+	padding:50px;
+}
+#about_author h1{
+	text-align:center;
+	color:white;
+	font-size:80px;
+}
+#about_author p{
+	font-size:25px;
+	color:white;
+	text-align:justify;
+}
+#about_author li{
+	list-style-type:none;
+	position:relative;
+	top:-30px;
+	left:320px;
+}
+#about_author a{
+	color:white;
+}
+footer{
+	width:100%;
+	height:50px;
+	background-color: #800040;
+	position:relative;
+}
+footer p{
+	color:white;
+	position:absolute;
+	top:-10px;
+	left:550px;
+	font-size:25px;
+}
+#rss{
+	font-size:20px;
+	color:white;
+	position:absolute;
+	top:10px;
+	left:1450px;
+}
+#sitemap{
+	font-size:20px;
+	color:white;
+	position:absolute;
+	top:10px;
+	left:30px;
+}
+.cleaner{
+	clear:both;
+}

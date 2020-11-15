@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<item>
+  <title>Home</title>
+  <link>index.html</link>
+  <description>Welcome to our home page
+  </description>
+</item> 
+<item>
+  <title>Story</title>
+  <link>story.html</link>
+  <description>See our story
+  </description>
+</item> 
+<item>
+  <title>Menu</title>
+  <link>meni.html</link>
+  <description>See our menu
+  </description>
+</item> 
+<item>
+  <title>Gallery</title>
+  <link>gallery.html</link>
+  <description>See our gallery
+  </description>
+</item>
+<item>
+  <title>Contact</title>
+  <link>contact.html</link>
+  <description>Contact us
+  </description>
+</item>
+<item>
+  <title>Author</title>
+  <link>author.html</link>
+  <description>About me
+  </description>
+</item>
+</channel>
+</rss>
